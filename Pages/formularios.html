@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./CSS/Style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/Style1.css"> 
+</head>
+<body>
+    <section>
+        <header id="header">
+       <div class="logo__inicio">
+         <img src="../Imagenes/logaso.jpg" alt="logaso">
+    </div>
+    <div class="box-models"> 
+        <h1 class="titulo">Contactanos</h1>
+    </div>
+    <div class="inicio">
+        <head>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li> /
+                    <li><a href="materiales.html">Materiales</a></li> /
+                    <li><a href="servicios.html">Servicios</a></li> /
+                    <li><a href="formularios.html"> Ascesoramiento</a></li> /
+                    <li><a href="rrhh.html">rrhh</a></li>
+                </ul>
+            </nav>
+        </head>
+    </header>    
+    </div>
+    <div>
+        <hr>
+        
+        <h2>Dejanos tu mensaje</h2>
+    </div>
+    
+    <h3>Asesoramiento</h3>
+
+
+    <form action="enviar.php" method="get" enctype="text/plain">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+            </div>
+            <br>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Ingrese su apellido" required>
+            </div>
+            <br>
+            <div>
+                <label for="numero">Numero de telefono</label>
+                <input type="numero" id="numero" placeholder="ingrese su numero" required>
+            </div>
+
+
+    </fieldset>
+        <br>
+        <div>
+            <label for="multi">Comentario</label>
+            <textarea name="multi" id="multi" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="file">
+        </div>
+        <br>
+        <div>
+            Te gustaria que un ascesor se conecte con vos?
+            <input type="radio" name="curso" value="1"> Si
+            <input type="radio" name="curso" value="2"> No
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="term" id="term" value="1"> Acepto tér. y Acepto cond.
+        </div>
+        <br>
+        <div>
+            <select name="barrio" id="barrio">
+                <option value="0">Seleccione ubicacion:</option>
+                <option value="1">La calera</option>
+                <option value="2">Arguello</option>
+                <option value="3">Saldan</option>
+                <option value="3">Cosquin</option>
+                <option value="3">Carloz paz</option>
+                <option value="3">La falda</option>
+                <option value="3">Otro</option>
+            </select>   
+        </div>
+        <br>
+        <input type="submit" value="Enviar ahora">
+        <input type="reset" value="Borrar todo">
+        <input type="button" value="Para JS">
+
+    </form>
+    <div class="links">
+        <nav>
+         <ul>
+            <li><a href="https://www.facebook.com/californiaaudiopolarizado">Facebook</a></li> /
+            <li><a href="https://www.instagram.com/california_audio_polarizado/">Instagram</a></li> /
+            <li><a href="https://www.youtube.com/c/DetailKing">Youtuve</a></li> 
+        </ul>
+     </nav>
+     </div>
+</section>
+</body>
+</html>
