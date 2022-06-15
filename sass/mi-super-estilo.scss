@@ -1,0 +1,214 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    html{scroll-behavior: smooth;}
+
+    body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(201, 201, 201);
+    padding: 15px;
+    }
+    h1{ font-size: 6.5em; font-family: Inspiration;color: white;}
+    h2{ font-size: 3.7em; font-family: Inspiration;}
+    h3{ font-size: 1.75em;}
+    p { font-size: 1.25em;}
+    ul{list-style: none;}
+    
+    button{
+        font-size: 1em;
+        font-weight: bold;
+        padding: 5px 15px;
+        border-radius: 5px;
+        border: 2px solid rgba(0,0,0,0.3);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        color: white ;
+        background-color: rgb(226, 43, 43);
+    }
+    button:hover{
+        background-color: rgb(165, 33, 33);
+    }
+    .conteiner{
+        max-width: 1400px;
+        margin: auto;}
+    header{
+        background-color: rgb(175, 150, 150);}
+
+    header nav{
+        display: flex;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 25px;
+        justify-content: center;}
+
+    header a{
+        padding: 5px 10px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-family:cursive;}
+
+    header a:hover{
+        color: red;}
+
+     .titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60vh;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+    ,url("/Imagenes/california3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center ;}
+
+ #somoscali .conteiner{
+     text-align: center;
+     padding: 150px 12px;
+ }
+ #detalles{
+     background-color: rgb(30,30,30);
+     color: rgb(255, 255, 255);
+     text-align: center;
+    }
+    #detalles h2{
+        padding: 60px;
+    }
+ #detalles .conteiner{
+     padding: 20px;
+    }
+    #detalles h2{
+ margin-top: 10px;
+}
+#detalles p{
+    display: none ;
+}
+
+#detalles .carta{
+    padding-inline: 10px;
+}
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+,url("/Imagenes/imagenhome7.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position:center center ;
+padding: 200px;
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+        ,url("/Imagenes/imagenhome6.jpg");
+        padding: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center center ;}
+        .carta:nth-child(3){
+            background-image: linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+                )
+                ,url("/Imagenes/imagenhome5.jpg");
+                padding: 200px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position:center center ;}
+                
+                .container{
+                    padding: 50px;
+                }
+                #audio{
+                    background-color: rgb(30,30,30);
+                    color: rgb(255, 255, 255);
+                    text-align: center;
+                }
+                #audio h2{
+                    padding: 60px;
+                }
+                #audio .conteiner{
+                    padding: 20px;
+                }
+                #audio h2{
+                    margin-top: 10px;
+                }
+                #audio p{
+                    display: none ;
+                }
+                
+                #audio .carta{
+                    padding-inline: 10px;
+                }
+                .carta:first-child{
+                    background-image: linear-gradient(
+                        0deg,
+                        rgba(0,0,0,0.5),
+                        rgba(0,0,0,0.5)
+                        )
+                        ,url("/Imagenes/imagenhome7.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position:center center ;
+padding: 200px;
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+        ,url("/Imagenes/imagenhome6.jpg");
+        padding: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center center ;}
+        .carta:nth-child(3){
+            background-image: linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+                )
+                ,url("/Imagenes/imagenhome5.jpg");
+                padding: 200px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position:center center ;}
+                footer{
+                    color: rgb(230, 230, 230);
+                    }
+                    footer p1{
+                        margin: 0px;
+                        padding: 12px;
+                        color: rgb(100, 100, 100);
+                    }
+                footer .conteiner{
+                    height: 150px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                }
+                @media( min-width:720px) {
+                    header .conteiner{                         
+                        flex-direction:row;
+                    }
+                    header nav{
+                        flex-direction: row;
+                        padding-bottom: 0px;
+                        padding-right: 20px;
+                        font-size: 30px;
+                        padding: 20px;
+                    }
+
+                }
